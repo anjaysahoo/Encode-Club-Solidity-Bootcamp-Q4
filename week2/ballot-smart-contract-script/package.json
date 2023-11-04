@@ -1,0 +1,22 @@
+{
+  "name": "ballot-smart-contract-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "mocha-test": "mocha",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "hardhat clean && rimraf build contracts/build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.3",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
